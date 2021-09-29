@@ -7,10 +7,10 @@ float main() {
 	float a, b, h, x = 0, y = 0;
 	
 	printf("Nhap a: ");
-	scanf_s("%f", &a); 
+	scanf("%f", &a); 
 	
 	printf("\r\nNhap b: ");
-	scanf_s("%f", &b);
+	scanf("%f", &b);
 	h = (b-a) / 1000; 
 	float s = 0;
 	float dientich = 0;
