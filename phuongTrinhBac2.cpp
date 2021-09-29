@@ -22,7 +22,7 @@ int main() {
 				}
 					else
 					{
-						printf("Phuong trinh co 1 nghiem duy nhat = %f", (-c)/d);
+						printf("Phuong trinh co 1 nghiem duy nhat = %0.2f", (-c)/d);
 					}
 		}
 	else 
@@ -38,15 +38,15 @@ int main() {
 			else if (delta == 0) 		
 				{
 					x1 = (-b) / 2*a;
-					printf("\r\nPhuong trinh co 1 nghiem kep = %f", x1);
+					printf("\r\nPhuong trinh co 1 nghiem kep = %0.2f", x1);
 				}
 				else 
 				{
 					x1 = (-b + d) / (2 * a);
 					x2 = (-b - d) / (2 * a);
 					printf("\r\nphuong trinh co hai nghiem phan biet: ");
-					printf("\r\nx1 = %f", x1);
-					printf("\r\nx2 = %f", x2);
+					printf("\r\nx1 = %0.2f", x1);
+					printf("\r\nx2 = %0.2f", x2);
 				}
 	}
 	return 0;
